@@ -89,6 +89,6 @@ st.write(f"The lowest price available for a {ram} {laptop} laptop is:")
 st.write(f" Name: {cheapest_name}")
 st.write(f"Price: {cheapest_price}")
 link = f"Link: [link](jumia.com.ng{cheapest_link})"
-st.markdown(f'''<a href={link}><button style="background-color:GreenYellow;">Link</button></a>)
+st.markdown(f'''<a href={link}><button style="background-color:GreenYellow;">Link</button></a>''')
 
 
