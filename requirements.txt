@@ -1,2 +1,2 @@
-beautfiulsoup4
+bs4
 requests
