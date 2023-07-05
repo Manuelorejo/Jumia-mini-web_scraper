@@ -1,2 +1,2 @@
-beautfiulsoup4==4.11.1
-requests==2.28.1
+beautfiulsoup4==4.9.0
+requests==2.31.0
