@@ -8,7 +8,6 @@ Created on Tue Jul  4 23:17:05 2023
 import streamlit as st
 from bs4 import BeautifulSoup
 import requests
-import webbrowser
 
 st.title("Jumia web scraper")
 st.subheader("Find the cheapest laptop available for the selected options")
@@ -90,8 +89,6 @@ st.write(f"The lowest price available for a {ram} {laptop} laptop is:")
 st.write(f" Name: {cheapest_name}")
 st.write(f"Price: {cheapest_price}")
 link = f"Link: [link](jumia.com.ng{cheapest_link})"
-button = st.button("Click to be redirected to the item")
-if button:
-    webbrowser.open(link)
+st.write(link)
 
 
