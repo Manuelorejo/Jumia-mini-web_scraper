@@ -79,16 +79,15 @@ sorted_dict = dict(sorted(big_dict.items(),key = lambda x:x[1]) )
 
 
 #Finding the attributes of the cheapest laptop
-#cheapest_link = list(sorted_dict.keys())[0]
 cheapest_price = list(sorted_dict.values())[0][0]
 cheapest_name = list(sorted_dict.values())[0][1]
-st.write(list(sorted_dict.keys()))
+cheapest_link = list(sorted_dict.keys())[0]
 
 #Printing out the attributes
-'''st.write(f"The lowest price available for a {ram} {laptop} laptop is:")
+st.write(f"The lowest price available for a {ram} {laptop} laptop is:")
 st.write(f" Name: {cheapest_name}")
 st.write(f"Price: {cheapest_price}")
 link = f"https://jumia.com.ng{cheapest_link}"
-st.write(link)'''
+st.write(link)
 
 
