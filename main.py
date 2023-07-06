@@ -82,7 +82,7 @@ sorted_dict = dict(sorted(big_dict.items(),key = lambda x:x[1]) )
 #cheapest_link = list(sorted_dict.keys())[0]
 cheapest_price = list(sorted_dict.values())[0][0]
 cheapest_name = list(sorted_dict.values())[0][1]
-
+st.write(list(sorted_dict.keys()))
 
 #Printing out the attributes
 st.write(f"The lowest price available for a {ram} {laptop} laptop is:")
