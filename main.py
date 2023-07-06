@@ -85,10 +85,10 @@ cheapest_name = list(sorted_dict.values())[0][1]
 st.write(list(sorted_dict.keys()))
 
 #Printing out the attributes
-st.write(f"The lowest price available for a {ram} {laptop} laptop is:")
+'''st.write(f"The lowest price available for a {ram} {laptop} laptop is:")
 st.write(f" Name: {cheapest_name}")
 st.write(f"Price: {cheapest_price}")
 link = f"https://jumia.com.ng{cheapest_link}"
-st.write(link)
+st.write(link)'''
 
 
